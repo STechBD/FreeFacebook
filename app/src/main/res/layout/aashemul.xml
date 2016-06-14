@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/mainHeader" android:layout_width="wrap_content" android:layout_height="45dp" style="@style/header">
+            <ImageButton android:id="@+id/feed" android:background="#3b5998" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fb" android:maxWidth="10dp" android:maxHeight="10dp" style="?android:attr/buttonBarButtonStyle"/>
+            <ImageButton android:id="@+id/messages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/messages" style="?android:attr/buttonBarButtonStyle"/>
+            <ImageButton android:id="@+id/friends" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friends" style="?android:attr/buttonBarButtonStyle"/>
+            <ImageButton android:id="@+id/notifications" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/notifications" style="?android:attr/buttonBarButtonStyle"/>
+            <ImageButton android:id="@+id/fbmenu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fbmenu" style="?android:attr/buttonBarButtonStyle"/>
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/loader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/footer" android:layout_width="wrap_content" android:layout_height="45dp" android:layout_alignParentBottom="true" style="@style/footer">
+        <ImageButton android:id="@+id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/back" style="?android:attr/buttonBarButtonStyle"/>
+        <ImageButton android:id="@+id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/forward" style="?android:attr/buttonBarButtonStyle"/>
+        <ImageButton android:id="@+id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/menu" style="?android:attr/buttonBarButtonStyle"/>
+        <ImageButton android:id="@+id/reload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reload" style="?android:attr/buttonBarButtonStyle"/>
+        <ImageButton android:id="@+id/cancel" android:background="#ffffff" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cancel"/>
+        <ImageButton android:layout_gravity="center" android:id="@+id/exit" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/exit" style="?android:attr/buttonBarButtonStyle"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/footer" android:layout_below="@+id/header">
+        <WebView android:id="@+id/AAShemul" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/header">
+    <Button android:id="@+id/developer" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/AAShemul" style="@style/header"/>
+    <Button android:id="@+id/about" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/about" style="@style/header"/>
+    <Button android:id="@+id/help" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/help" style="@style/header"/>
+    <Button android:id="@+id/contact" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact" style="@style/header"/>
+    <Button android:id="@+id/update" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/update" style="@style/header"/>
+    <Button android:id="@+id/website" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/visit_website" style="@style/header"/>
+    <Button android:id="@+id/changeLog" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/change_log" style="@style/header"/>
+</LinearLayout>

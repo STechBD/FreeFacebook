@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FreeFacebook By AAShemul</string>
+    <string name="app_version">Version 1.0.1</string>
+    <string name="AAShemul">Ashraful Alam Shemul</string>
+    <string name="menu">Menu</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="contact">Contact</string>
+    <string name="update">Check for Update</string>
+    <string name="change_log">Change Log</string>
+    <string name="whats_new">What\'s New?</string>
+    <string name="new_1" />
+    <string name="visit_website">Visit Website</string>
+    <string name="about_app">About This App</string>
+    <string name="about_full">FreeFacebook is a free and AD free Android application. By using this app you can browse Facebook compleately free in most of the country. Now it is only available for Android OS. iOS and Windows OS app coming soon .......</string>
+    <string name="developed_by">Developed By</string>
+    <string name="stechbd">S Technologies Ltd.</string>
+    <string name="dev_team">Developer Team</string>
+    <string name="team_member">Md. Ashraful Alam Shemul</string>
+    <string name="member_details">(CEO of S Technologies Ltd.)</string>
+    <string name="terms">Terms</string>
+    <string name="terms_full">As it is a free app, you cant sell this app.</string>
+    <string name="activity_browse">AAShemul Browser</string>
+</resources>

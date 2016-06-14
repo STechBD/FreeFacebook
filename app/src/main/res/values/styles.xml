@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+    </style>
+    <style name="header">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#3b5998</item>
+    </style>
+    <style name="footer">
+        <item name="android:background">#ffffff</item>
+    </style>
+    <style name="blue">
+        <item name="android:textColor">#3b5998</item>
+    </style>
+    <style name="border">
+    </style>
+</resources>
