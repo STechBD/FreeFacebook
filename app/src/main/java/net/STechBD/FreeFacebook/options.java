@@ -10,6 +10,7 @@ import android.widget.Button;
 /* loaded from: classes.dex */
 public class options extends Activity {
     private Button AAShemul;
+    private Button STechBD;
     private Button about;
     private Button changeLog;
     private Button contact;
@@ -24,6 +25,7 @@ public class options extends Activity {
         setContentView(R.layout.options);
         getIntent().getStringExtra("domain");
         this.AAShemul = (Button) findViewById(R.id.developer);
+        this.STechBD = (Button) findViewById(R.id.STechBD);
         this.about = (Button) findViewById(R.id.about);
         this.help = (Button) findViewById(R.id.help);
         this.contact = (Button) findViewById(R.id.contact);
@@ -42,7 +44,19 @@ public class options extends Activity {
                 this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.facebook.com/AAShemul")));
             }
         });
-        this.about.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000001
+        this.STechBD.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000001
+            private final options this$0;
+
+            {
+                this.this$0 = this;
+            }
+
+            @Override // android.view.View.OnClickListener
+            public void onClick(View view) {
+                this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.stechbd.net")));
+            }
+        });
+        this.about.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000002
             private final options this$0;
 
             {
@@ -58,7 +72,7 @@ public class options extends Activity {
                 }
             }
         });
-        this.help.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000002
+        this.help.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000003
             private final options this$0;
 
             {
@@ -70,7 +84,7 @@ public class options extends Activity {
                 this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.freefbapp.gq/help")));
             }
         });
-        this.contact.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000003
+        this.contact.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000004
             private final options this$0;
 
             {
@@ -82,7 +96,7 @@ public class options extends Activity {
                 this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.freefbapp.gq/contact")));
             }
         });
-        this.update.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000004
+        this.update.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000005
             private final options this$0;
 
             {
@@ -91,10 +105,10 @@ public class options extends Activity {
 
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
-                this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.freefbapp.gq/update/1")));
+                this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.freefbapp.gq/update/6")));
             }
         });
-        this.website.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000005
+        this.website.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000006
             private final options this$0;
 
             {
@@ -106,7 +120,7 @@ public class options extends Activity {
                 this.this$0.startActivity(new Intent("android.intent.action.VIEW", Uri.parse("http://www.freefbapp.gq")));
             }
         });
-        this.changeLog.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000006
+        this.changeLog.setOnClickListener(new View.OnClickListener(this) { // from class: net.STechBD.FreeFacebook.options.100000007
             private final options this$0;
 
             {

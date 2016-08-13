@@ -24,29 +24,31 @@
     <public type="string" name="app_version" id="0x7f040001" />
     <public type="string" name="AAShemul" id="0x7f040002" />
     <public type="string" name="menu" id="0x7f040003" />
-    <public type="string" name="about" id="0x7f040004" />
-    <public type="string" name="help" id="0x7f040005" />
-    <public type="string" name="contact" id="0x7f040006" />
-    <public type="string" name="update" id="0x7f040007" />
-    <public type="string" name="change_log" id="0x7f040008" />
-    <public type="string" name="whats_new" id="0x7f040009" />
-    <public type="string" name="new_1" id="0x7f04000a" />
-    <public type="string" name="visit_website" id="0x7f04000b" />
-    <public type="string" name="about_app" id="0x7f04000c" />
-    <public type="string" name="about_full" id="0x7f04000d" />
-    <public type="string" name="developed_by" id="0x7f04000e" />
-    <public type="string" name="stechbd" id="0x7f04000f" />
-    <public type="string" name="dev_team" id="0x7f040010" />
-    <public type="string" name="team_member" id="0x7f040011" />
-    <public type="string" name="member_details" id="0x7f040012" />
-    <public type="string" name="terms" id="0x7f040013" />
-    <public type="string" name="terms_full" id="0x7f040014" />
-    <public type="string" name="activity_browse" id="0x7f040015" />
+    <public type="string" name="STechBD_Net" id="0x7f040004" />
+    <public type="string" name="about" id="0x7f040005" />
+    <public type="string" name="help" id="0x7f040006" />
+    <public type="string" name="contact" id="0x7f040007" />
+    <public type="string" name="update" id="0x7f040008" />
+    <public type="string" name="change_log" id="0x7f040009" />
+    <public type="string" name="whats_new" id="0x7f04000a" />
+    <public type="string" name="new_1" id="0x7f04000b" />
+    <public type="string" name="visit_website" id="0x7f04000c" />
+    <public type="string" name="about_app" id="0x7f04000d" />
+    <public type="string" name="about_full" id="0x7f04000e" />
+    <public type="string" name="developed_by" id="0x7f04000f" />
+    <public type="string" name="stechbd" id="0x7f040010" />
+    <public type="string" name="dev_team" id="0x7f040011" />
+    <public type="string" name="team_member" id="0x7f040012" />
+    <public type="string" name="member_details" id="0x7f040013" />
+    <public type="string" name="terms" id="0x7f040014" />
+    <public type="string" name="terms_full" id="0x7f040015" />
+    <public type="string" name="activity_browse" id="0x7f040016" />
     <public type="style" name="AppTheme" id="0x7f050000" />
-    <public type="style" name="header" id="0x7f050001" />
-    <public type="style" name="footer" id="0x7f050002" />
-    <public type="style" name="blue" id="0x7f050003" />
-    <public type="style" name="border" id="0x7f050004" />
+    <public type="style" name="ActionBarTheme" id="0x7f050001" />
+    <public type="style" name="header" id="0x7f050002" />
+    <public type="style" name="footer" id="0x7f050003" />
+    <public type="style" name="blue" id="0x7f050004" />
+    <public type="style" name="border" id="0x7f050005" />
     <public type="id" name="header" id="0x7f060000" />
     <public type="id" name="mainHeader" id="0x7f060001" />
     <public type="id" name="feed" id="0x7f060002" />

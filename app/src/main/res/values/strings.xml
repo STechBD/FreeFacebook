@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FreeFacebook By AAShemul</string>
-    <string name="app_version">Version 1.0.1</string>
+    <string name="app_version">Version 1.2.0</string>
     <string name="AAShemul">Ashraful Alam Shemul</string>
     <string name="menu">Menu</string>
+    <string name="STechBD_Net">STechBD.Net</string>
     <string name="about">About</string>
     <string name="help">Help</string>
     <string name="contact">Contact</string>

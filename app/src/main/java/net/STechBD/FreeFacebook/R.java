@@ -68,35 +68,37 @@ public final class R {
     /* loaded from: classes.dex */
     public static final class string {
         public static final int AAShemul = 0x7f040002;
-        public static final int about = 0x7f040004;
-        public static final int about_app = 0x7f04000c;
-        public static final int about_full = 0x7f04000d;
-        public static final int activity_browse = 0x7f040015;
+        public static final int STechBD_Net = 0x7f040004;
+        public static final int about = 0x7f040005;
+        public static final int about_app = 0x7f04000d;
+        public static final int about_full = 0x7f04000e;
+        public static final int activity_browse = 0x7f040016;
         public static final int app_name = 0x7f040000;
         public static final int app_version = 0x7f040001;
-        public static final int change_log = 0x7f040008;
-        public static final int contact = 0x7f040006;
-        public static final int dev_team = 0x7f040010;
-        public static final int developed_by = 0x7f04000e;
-        public static final int help = 0x7f040005;
-        public static final int member_details = 0x7f040012;
+        public static final int change_log = 0x7f040009;
+        public static final int contact = 0x7f040007;
+        public static final int dev_team = 0x7f040011;
+        public static final int developed_by = 0x7f04000f;
+        public static final int help = 0x7f040006;
+        public static final int member_details = 0x7f040013;
         public static final int menu = 0x7f040003;
-        public static final int new_1 = 0x7f04000a;
-        public static final int stechbd = 0x7f04000f;
-        public static final int team_member = 0x7f040011;
-        public static final int terms = 0x7f040013;
-        public static final int terms_full = 0x7f040014;
-        public static final int update = 0x7f040007;
-        public static final int visit_website = 0x7f04000b;
-        public static final int whats_new = 0x7f040009;
+        public static final int new_1 = 0x7f04000b;
+        public static final int stechbd = 0x7f040010;
+        public static final int team_member = 0x7f040012;
+        public static final int terms = 0x7f040014;
+        public static final int terms_full = 0x7f040015;
+        public static final int update = 0x7f040008;
+        public static final int visit_website = 0x7f04000c;
+        public static final int whats_new = 0x7f04000a;
     }
 
     /* loaded from: classes.dex */
     public static final class style {
+        public static final int ActionBarTheme = 0x7f050001;
         public static final int AppTheme = 0x7f050000;
-        public static final int blue = 0x7f050003;
-        public static final int border = 0x7f050004;
-        public static final int footer = 0x7f050002;
-        public static final int header = 0x7f050001;
+        public static final int blue = 0x7f050004;
+        public static final int border = 0x7f050005;
+        public static final int footer = 0x7f050003;
+        public static final int header = 0x7f050002;
     }
 }
